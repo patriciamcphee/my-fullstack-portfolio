@@ -1,0 +1,100 @@
+body{
+    padding:50px 0px 0px 0px;
+    z-index:0;
+}
+
+.navbar-dark {
+     background-color: #264653;
+}
+
+.row-header{
+    margin:0px auto;
+    padding:0px;
+}
+
+.row-content {
+    margin:0px auto;
+    padding: 20px 0px 20px 0px;
+    border-bottom: 1px ridge;
+/*    min-height:400px;  */
+}
+
+.footer{
+    background-color: #E9C46A;
+    margin:0px auto;
+    padding: 40px 0px 20px 0px;
+}
+
+.jumbotron {
+    padding:70px 30px 70px 30px;
+    margin:0px auto;
+    background-color: #2A9D8F;
+    color:white;
+}
+
+
+address{
+    font-size:80%;
+    margin:0px;
+    color:#0f0f0f;
+}
+
+h2, h3 {
+    padding: 20px 0px 0px 0px;
+}
+
+ul.no-bullets {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  
+small {
+    font-size: 80%
+}
+
+/* unvisited link */
+/*
+a:link, a:visited {
+    color: #2A9D8F;
+    text-decoration: none;
+  }
+  */
+  
+  /* mouse over link */
+/*
+  a:hover, a:active {
+    color: #264653;
+    text-decoration: underline;
+  }
+*/
+
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 0px 20px 10px 20px;
+}
+
+.carousel {
+    background: #264653;
+}
+
+.carousel-item {
+    height: 200px;
+}
+
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 200px;
+}
+
+#carouselButton {
+    right:0px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+}
