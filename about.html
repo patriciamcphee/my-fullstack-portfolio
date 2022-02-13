@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   
-    <title>Patricia McPhee | Contact </title>
+    <title>Patricia McPhee | About </title>
     <meta name="description" content="A simple portfolio showing my web development capabilities.">
   
     <link rel="icon" href="./img/favicon.png">
@@ -17,42 +17,75 @@
     <script src="https://kit.fontawesome.com/bcd0cbd786.js" crossorigin="anonymous"></script>
   </head>
 
-<body>
-  <header>
-    <nav>
-    <!-- Add your logo here -->
-    <img src="./img/patricia-mcphee-logo-white.svg" alt="logo">
-    <ul>
-      <li>
-        <a href="index.html">Home</a>
-      </li>
-      <li>
-        <a href="about.html">About Me</a>
-      </li>
-      <li>
-        <a href="contact.html">Contact Me</a>
-      </li>
-    </ul>
-  </nav>
-</header>
+  <body>
+    <header>
+      <nav class="navbar navbar-dark navbar-expand-sm">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a href="./index.html"><img src="./img/patricia-mcphee-logo-white.svg"></a>
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="nav">
+                        <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    </header>
 
-  <main>
+  <main role="main">
+    <div class="container">
     <h1 id="about">About</h1>
     <p>This page is about me. This is what I enjoy doing:</p>
     <ul>
       <li>Frontend development</li>
       <li>Backend development</li>
-      <li>Test-driven development</li>
-      <li>Climbing</li>
+      <li>Content development</li>
+      <li>Creating and being innovative</li>
     </ul>
+ 
     
     <h2>How I became a web developer</h2>
-    <p>Everything you need to know about my path.</p>
-    <p>More information</p>
-    <p>More information</p>
-    
-    <h2>How I learned climbing</h2>
-    <p>Everything you need to know about climbing.</p>
+    <p><b>How it started:</b> I've been in IT in different capacities for the past 25 years, starting in support and moving to network system administration. However, for the past 20 years I've been working as a Technical Writer and my expertise is taking the guesswork out of complex technical content for busy IT professionals. </p>
+    <p><b>How I got here:</b> About 12 years ago I started to become disenchanted with my career choice. I explored different careers like voiceover, going back to my roots as a graphic designer, transition to UX/UI Designer, or web development. After exploring each possibilities, I decided to become a web developer.</p>
+ 
+    <h2>Skills</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Skill</th>
+          <th>Years</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Technical Writing</td>
+          <td>25</td>
+        </tr>
+        <tr>
+          <td>HTML/CSS</td>
+          <td>22</td>
+        </tr>
+        <tr>
+          <td>JavaScript</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>GitHub/Git/Git bash</td>
+          <td>8</td>
+        </tr>
+        <tr>
+          <td>JIRA or other sprint-based systems</td>
+          <td>7</td>
+        </tr>
+
+      </tbody>
+    </table>
+
+  </div>
   </main>
 
   <footer class="text-center">

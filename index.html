@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   
-    <title>Patricia McPhee | Contact </title>
+    <title>Patricia McPhee | Web Developer Portfolio </title>
     <meta name="description" content="A simple portfolio showing my web development capabilities.">
   
     <link rel="icon" href="./img/favicon.png">
@@ -17,40 +17,47 @@
     <script src="https://kit.fontawesome.com/bcd0cbd786.js" crossorigin="anonymous"></script>
   </head>
 
-<body>
-  <header>
-    <nav>
-    <!-- Add your logo here -->
-    <img src="./img/patricia-mcphee-logo-white.svg" alt="logo">
-    <ul>
-      <li>
-        <a href="index.html">Home</a>
-      </li>
-      <li>
-        <a href="about.html">About Me</a>
-      </li>
-      <li>
-        <a href="contact.html">Contact Me</a>
-      </li>
-    </ul>
-  </nav>
-</header>
-<main>
-  <section id="banner">
-    <!-- Add your Portrait image here -->
-    <img src="http://via.placeholder.com/150x150" alt="Patricia McPhee Portrait">
-    <h1>Hello!</h1>
-    <h2>My name is Patricia McPhee</h2>
-    <h3>I am a <span style="background-color: black; color: orange;"> &#060;web&#062;</span> developer from Redmond, WA USA.</h3>
-    <p>
-      <a href="#work">Check out some of my code</a>
-    </p>
-  </section>
-  <section id="work">
-    <h1>Work</h1>
+  <body>
+    <header>
+      <nav class="navbar navbar-dark navbar-expand-sm">
+        <div class="container">
+            <button class="navbar-toggler" type="button" role="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a href="./index.html"><img src="./img/patricia-mcphee-logo-white.svg"></a>
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="nav" role="menubar">
+                        <li class="nav-item" role="presentation"><a class="nav-link" role="menuitem" href="#">Home</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" role="menuitem" href="./about.html">About</a></li>
+                        <li class="nav-item active" role="presentation"><a class="nav-link" role="menuitem" href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    </header>
 
+    <main role="main">
+      <section id="home">
+      <div class="container">
+        <div class="row row-content">
+          <p>
+            <!-- Add your Portrait image here -->
+            <img src="http://via.placeholder.com/150x150" alt="Patricia McPhee Portrait">
+          </p>
+          
+            <h1>Hello!</h1>
+            <h2>My name is Patricia McPhee</h2>
+            <h3>I am a <span style="background-color: black; color: orange;"> &#060;web&#062;</span> developer from Redmond, WA USA.</h3>
+            <p>
+              Check out some of <a href="./about.html">my code</a>.
+            </p>
+        </div>
+
+
+    </div>
   </section>
-</main>
+    </main>
+
   <footer class="text-center">
     <p>Find me on</p>
     <a href="https://github.com/patriciamcphee" target="_blank"><img src="img/github-logo.svg" alt="Github"></a>
