@@ -16,10 +16,11 @@ body {
     line-height: 1.6;
     /* Sets the line-height to 1.6 */
     z-index: 0;
-    
   }
 
-
+main {
+  padding: 20px;
+}
 
 nav {
      background-color: #264653;
