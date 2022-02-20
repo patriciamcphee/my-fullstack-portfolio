@@ -18,32 +18,66 @@
     <script src="https://kit.fontawesome.com/bcd0cbd786.js" crossorigin="anonymous"></script>
   </head>
 <body>
-    <header class="navbar-fixed-top">
-        <nav class="navbar navbar-expand-sm">
-            <div class="container">
-                <div class="row row-cols-auto">
-                    <div class="col-sm">
-                    <a href="./index.html" role="menuitem"><img src="./img/patricia-mcphee-logo-white.svg" alt="Patricia McPhee logo"></a>
-                    </div>
-                </div>
-                <ul class="nav" role="menubar">
-                    <li class="nav-item" role="presentation"><a class="nav-link active" role="menuitem" href="#">Home</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" role="menuitem" href="./about.html">About</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" role="menuitem" href="./work.html">Work</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" role="menuitem" href="./contact.html">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-      </header>
 
-<footer class="text-center">
-  <p>Find me on</p>
-  <a href="https://github.com/patriciamcphee" target="_blank"><img src="img/github-logo.svg" alt="Github"></a>
-  <a href="https://patricia-mcphee.slack.com/team/U0317EJ3XG9" target="_blank"><img src="img/slack-icon.svg" alt="Slack"></a>
-  <a href="https://www.linkedin.com/in/patriciamcphee/" target="_blank"><img src="img/linkedin-icon.svg" alt="LinkedIn"></a>
-</footer>
-<!-- Scripts -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="js/tota11y.min.js"></script>
-</body>
-</html>
+<!-- Header including the logo and the main navigation -->
+<header class="page-header">
+  <nav class="main-navigation page-header__item">
+              <a href="./index.html" class="profile__portrait" role="menuitem"><img src="./img/patricia-mcphee-logo-white.svg" alt="Patricia McPhee logo" class="page-header__item"></a>
+
+      <ul role="menubar" class="navigation-list">
+         <li role="presentation">
+            <a href="index.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Home</a>
+         </li >
+         <li role="presentation">
+            <a href="about.html" role="menuitem" class="navigation-list__item">About</a>
+         </li>
+         <li role="presentation">
+            <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
+         </li>
+      </ul>
+   </nav>
+</header>
+    
+    <!-- Main content -->
+    <section>
+       <h1>Work</h1>
+       <div class="grid">
+          <div class="grid__item">
+            <h2>Mobile web app</h2>
+            <p>
+                Within this project, I was responsible for the frontend. It’s written in React.js. Additionally, I've created the HTML and CSS templates.
+            </p>
+            <a href="#">See project on GitHub</a>
+          </div>
+          <div class="grid__item">
+            <h2>Mobile web app</h2>
+            <p>
+                Within this project, I was responsible for the frontend. It’s written in React.js. Additionally, I've created the HTML and CSS templates.
+            </p>
+            <a href="#">See project on GitHub</a>
+          </div>
+          <div class="grid__item">
+            <h2>Mobile web app</h2>
+            <p>
+                Within this project, I was responsible for the frontend. It’s written in React.js. Additionally, I've created the HTML and CSS templates.
+            </p>
+            <a href="#">See project on GitHub</a>
+          </div>
+       </div>
+    </section>
+    <!-- Footer with links to social media profiles -->
+        <footer class="text-center page-footer">
+          <p>Find me on</p>
+          <div class="social-media">
+          <a href="https://github.com/patriciamcphee" target="_blank"><img src="img/github-logo.svg" alt="Github"></a>
+          <a href="https://patricia-mcphee.slack.com/team/U0317EJ3XG9" target="_blank"><img src="img/slack-icon.svg" alt="Slack"></a>
+          <a href="https://www.linkedin.com/in/patriciamcphee/" target="_blank"><img src="img/linkedin-icon.svg" alt="LinkedIn"></a>
+          </div>
+    
+        </footer>
+        <!-- Scripts -->
+      
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/tota11y.min.js"></script>
+      </body>
+      </html>

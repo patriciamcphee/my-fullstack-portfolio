@@ -18,26 +18,27 @@
     <script src="https://kit.fontawesome.com/bcd0cbd786.js" crossorigin="anonymous"></script>
   </head>
 <body>
-  <header class="topnav fixed-top">
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container topnav">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <a class="navbar-brand topnav" href="./index.html" role="menuitem"><img src="./img/patricia-mcphee-logo-white.svg" alt="Patricia McPhee logo"></a>
-          </div>
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <ul class="nav" role="menubar">
-            <li class="nav-item" role="presentation"><a class="nav-link" role="menuitem" href="./index.html">Home</a></li>
-            <li class="nav-item" role="presentation"><a class="nav-link active" role="menuitem" href="#">About</a></li>
-            <li class="nav-item" role="presentation"><a class="nav-link" role="menuitem" href="./work.html">Work</a></li>
-            <li class="nav-item" role="presentation"><a class="nav-link" role="menuitem" href="./contact.html">Contact</a></li>
-          </ul>
-          <!-- /.navbar-collapse -->
-      </div>
-            <!-- /.container-fluid -->
-    </nav>
-  </header>
-  <main role="main">
+<!-- Header including the logo and the main navigation -->
+<header class="page-header">
+  <a href="./index.html" role="menuitem"><img src="./img/patricia-mcphee-logo-white.svg" alt="Patricia McPhee logo"></a>
+  <nav class="main-navigation page-header__item">
+    <ul role="menubar" class="navigation-list">
+       <li role="presentation">
+          <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
+       </li>
+       <li role="presentation">
+          <a href="about.html" role="menuitem" class="navigation-list__item navigation-list__item--active">About</a>
+       </li>
+       <li role="presentation">
+          <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
+       </li>
+       <li role="presentation">
+          <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
+       </li>
+    </ul>
+ </nav>
+</header>
+  <section role="main">
       <div class="container">
           <div class="row row-content">
               <div class="col">
@@ -95,7 +96,7 @@
 
     </div>
  
-</main>
+  </section>
 <footer class="text-center">
   <p>Find me on</p>
   <a href="https://github.com/patriciamcphee" target="_blank"><img src="img/github-logo.svg" alt="Github"></a>
