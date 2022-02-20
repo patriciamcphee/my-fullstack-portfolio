@@ -58,6 +58,7 @@ Secondary Color (Orange): #e0b354;
  }
 
 body {
+  margin: 0 auto;
     font-family: "Roboto";
     font-weight: 300;
     font-size: 16px;
@@ -65,6 +66,31 @@ body {
     line-height: 1.6;
     /* Sets the line-height to 1.6 */
   }
+
+
+
+  @media all and (min-width: 500px) and (max-width: 750px){
+    .grid {
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 10px;
+    }
+    .grid__item:last-child {
+      grid-column: auto / auto;
+      grid-row: auto / auto;
+    }
+    h1 {
+      font-size: 22px;
+    }
+
+  }
+
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
+/* The navigation bar */
+
 
 nav {
      background-color: #264653;
@@ -88,11 +114,6 @@ nav a:active {
 }
 */
 
-section {
-  margin: 0 auto;
-  padding: 20px;
-}
-
 .profile {
   max-width: 700px;
   margin: 0 auto;
@@ -100,7 +121,7 @@ section {
 
 .profile__portrait {
   float: left;
-  width: 250px;
+  width: 100%;
   margin-right: 40px;
 /*  border-radius: 50%; */
 }
@@ -122,8 +143,11 @@ section {
   margin: 0 auto;
 }
 
+
+
 .page-header__item {
   flex: 0 1 200px;
+
 }
 
 .page-header__item:last-child {
@@ -169,9 +193,6 @@ h1, h2, h3 {
 small {
     font-size: 80%
 }
-
-
-
 
 
 /* unvisited link */
