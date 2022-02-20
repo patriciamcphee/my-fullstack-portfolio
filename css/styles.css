@@ -12,11 +12,28 @@ Secondary Color (Orange): #e0b354;
   box-sizing: border-box;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+
+}
+
+.grid__item:last-child {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
 /* start grid fallback */
 .grid__item {
   display: inline-block;
   width: 33%;
+  flex-basis: 200px;
  }
+
+
  /* end grid fallback */
  
  @supports (display: grid) {
@@ -71,8 +88,9 @@ nav a:active {
 }
 */
 
-main {
+section {
   margin: 0 auto;
+  padding: 20px;
 }
 
 .profile {
@@ -138,6 +156,9 @@ footer{
 
 .page-footer {
   clear: both;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
 }
 
 h1, h2, h3 {
