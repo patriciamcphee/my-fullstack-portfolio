@@ -205,16 +205,24 @@ h3 {
   margin-top: .4em;
   font-weight: 300;
 }
-  
+
+/* Button styles */
 .btn-primary {
+  /* overwrites browser defaults and resets the border */
+  border: none;
+  display: inline-block;
+  /* takes the font from the outer container */
+  font-family: inherit;
+  /* styles the button */
   box-shadow: 0; 
-  border: none; 
-  background-color: #48c9b0;
-  border-color: #48c9b0;
-  color: #ffffff;
+  /* styles the button */
+  background-color: #357b70;
+  border-color: #357b70;
+  color: white;
+  text-decoration: none;
   outline: none;
   -webkit-font-smoothing: subpixel-antialiased;
-  transition: all .5s;
+  transition: 0.5s opacity;
   padding: 10px 19px;
   font-size: 17px;
   line-height: 1.471;
@@ -227,10 +235,18 @@ h3 {
   display: inherit;
 }
   
-.btn-primary:hover {
-  background-color: #1ABC9C;
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #357b70;
+    /* lets the mouse appear as a hand when hovering over the button */
+    cursor: pointer;
+    /* reduces the opacity of the button to 80% */
+    opacity: 0.8;
 }
-  
+
+ 
 .form-group {
   position: relative;
   opacity: 1;
@@ -311,13 +327,16 @@ textarea.form-control:focus {
   border-color: #48c9b0;
 }
 
-table, th, td {
+th, td {
   border: 1px solid #34495e;
   border-collapse: collapse;
+  padding: 15px;
 }
 
-th, td {
-  padding: 15px;
+.skills-table {
+  width: 400px;
+  border: 1px solid #34495e;
+  border-collapse: collapse;
 }
 
 table#mytable tr:nth-child(even) {
@@ -336,19 +355,15 @@ table#mytable th {
 @media all and (max-width: 500px) {
   .grid {
     grid-template-columns: 1fr;
-    grid-gap: 10px;
-  }
-  .grid__item:last-child {
-    grid-column: auto / auto;
-    grid-row: auto / auto;
-  }
-  h1 {
-    font-size: 22px;
   }
 }
 @media all and (min-width: 500px) and (max-width: 750px){
   .grid {
     grid-template-columns: 1fr 1fr;
+  }
+}
+@media all and (max-width: 750px) {
+  .grid {
     grid-gap: 10px;
   }
   .grid__item:last-child {
@@ -359,3 +374,4 @@ table#mytable th {
     font-size: 22px;
   }
 }
+
