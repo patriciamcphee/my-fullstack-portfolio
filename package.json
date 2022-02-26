@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@khanacademy/tota11y": "^0.2.0",
+    "animate.css": "^4.1.1"
+  },
+  "version": "0.0.0"
+}
