@@ -167,6 +167,7 @@ a:link {
 a:hover, a:focus {
   /* No underlining when hovering over a link */
   text-decoration: none;
+  font-weight: 900;
 }
 
 a:visited {
@@ -244,6 +245,48 @@ h3 {
     cursor: pointer;
     /* reduces the opacity of the button to 80% */
     opacity: 0.8;
+}
+
+@keyframes color-change {
+  0% {
+    fill: #edc655;
+  }
+  50% {
+    fill: #fcffad;
+  }
+  100% {
+    fill: #FA9760;
+  }
+}
+
+.sun {
+  animation: 4s color-change infinite alternate linear;
+}
+
+@keyframes boat-move {
+  from {
+    transform: translate(50px, 0);
+  }
+  to {
+    transform: translate(160px, 0px);
+  }
+}
+
+.boat {
+  animation: 20s boat-move alternate ease-in-out;
+}
+
+@keyframes cloud-move-reverse {
+  from {
+    transform: translate(446px, 48px);
+  }
+  to {
+    transform: translate(100px, 48px);
+  }
+}
+
+.cloud-back {
+  animation: 34s cloud-move-reverse infinite alternate linear;
 }
 
  
@@ -374,4 +417,3 @@ table#mytable th {
     font-size: 22px;
   }
 }
-
