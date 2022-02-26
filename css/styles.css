@@ -260,20 +260,20 @@ h3 {
 }
 
 .sun {
-  animation: 4s color-change infinite alternate linear;
+  animation: 9s color-change alternate linear;
 }
 
 @keyframes boat-move {
   from {
-    transform: translate(50px, 0);
+    transform: translate(90px, 0px);
   }
   to {
-    transform: translate(160px, 0px);
+    transform: translate(-220px, 5px);
   }
 }
 
 .boat {
-  animation: 20s boat-move alternate ease-in-out;
+  animation: 30s boat-move infinite ease-in;
 }
 
 @keyframes cloud-move-reverse {
