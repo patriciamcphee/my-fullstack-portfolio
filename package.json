@@ -1,7 +1,13 @@
 {
   "dependencies": {
     "@khanacademy/tota11y": "^0.2.0",
-    "animate.css": "^4.1.1"
+    "animate.css": "^4.1.1",
+    "sass": "^1.49.9"
   },
-  "version": "0.0.0"
+  "version": "0.0.0",
+  "devDependencies": {
+    "postcss": "^8.4.7",
+    "postcss-css-variables": "^0.18.0",
+    "postcss-html-loader": "^1.1.0"
+  }
 }
