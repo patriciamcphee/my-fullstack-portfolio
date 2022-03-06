@@ -139,24 +139,24 @@ section{
 
 
 
-/* Footer */
+/* Footer 
 
 footer{
     background-color: var(--secondary-color-darker);
-    margin:0px auto;
-    padding: 20px 0px;
+    margin:0;
     align-items: center;
     height: 50px;
 
-}
+}*/
 
 .page-footer {
   clear: both;
-  display: flex;
+
   text-align: center;
   flex-direction: column;
   flex-shrink: 0;
   position: fixed;
+  margin: 0;
 }
 
 /* links */
