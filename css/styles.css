@@ -147,6 +147,7 @@ footer{
     padding: 20px 0px;
     align-items: center;
     height: 50px;
+
 }
 
 .page-footer {
@@ -155,6 +156,7 @@ footer{
   text-align: center;
   flex-direction: column;
   flex-shrink: 0;
+  position: fixed;
 }
 
 /* links */
@@ -230,21 +232,10 @@ body {
   text-align: right;
 }
 
-
-h1, h2, h3 {
-  padding: 20px 0px 0px 0px;
-}
-
 small {
   font-size: 80%
 }
 
-h3 {
-  font-size: 1.98em;
-  margin-bottom: .8em;
-  margin-top: .4em;
-  font-weight: 300;
-}
 
 /* buttons */
 .btn__wrapper {

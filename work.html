@@ -21,17 +21,17 @@
   <body>
     <!-- Header including the logo and the main navigation -->
     <header class="page-header">
-      <a href="./index.html" role="menuitem"><img src="./img/patricia-mcphee-logo-white.svg" alt="Patricia McPhee logo"></a>
+      <a href="./index.html"><img src="./img/patricia-mcphee-logo-white.svg" alt="Patricia McPhee logo"></a>
       <nav class="main-navigation page-header__item">
         <ul role="menubar" class="navigation-list">
            <li role="presentation">
-              <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
+              <a href="index.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Home</a>
            </li>
            <li role="presentation">
               <a href="about.html" role="menuitem" class="navigation-list__item">About</a>
            </li>
            <li role="presentation">
-              <a href="work.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Work</a>
+              <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
            </li>
            <li role="presentation">
               <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
@@ -89,15 +89,20 @@
 
       </main>
     <!-- Footer with links to social media profiles -->
-        <footer class="text-center page-footer">
-          <p>Find me on</p>
-          <div class="social-media">
-          <a href="https://github.com/patriciamcphee" target="_blank"><img src="img/github-logo.svg" alt="Github"></a>
-          <a href="https://patricia-mcphee.slack.com/team/U0317EJ3XG9" target="_blank"><img src="img/slack-icon.svg" alt="Slack"></a>
-          <a href="https://www.linkedin.com/in/patriciamcphee/" target="_blank"><img src="img/linkedin-icon.svg" alt="LinkedIn"></a>
+    <footer id="page-footer">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <p>Find me on</p>
+            <div class="social-media">
+              <a href="https://github.com/patriciamcphee" target="_blank"><img src="img/github-logo.svg" alt="Github"></a>
+              <a href="https://patricia-mcphee.slack.com/team/U0317EJ3XG9" target="_blank"><img src="img/slack-icon.svg" alt="Slack"></a>
+              <a href="https://www.linkedin.com/in/patriciamcphee/" target="_blank"><img src="img/linkedin-icon.svg" alt="LinkedIn"></a>
+            </div>
           </div>
-    
-        </footer>
+        </div>
+      </div>
+    </footer>
         <!-- Scripts -->
       
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
