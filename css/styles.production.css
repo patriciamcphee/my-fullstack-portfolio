@@ -74,10 +74,13 @@ Secondary Color (Gold): #e0b354;
  
   }
   .grid__item {
-    background-color: var(--background-color-lighter);
+    background-color: #eeeeee;
+    border: 1px solid #34495e;
+    border-radius: 10px;
     width: auto;
     min-height: auto;
     margin: 0;
+    padding: 10px 20px 20px 20px;
   }
   .grid__item:last-child {
     -ms-grid-column: 3;
