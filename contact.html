@@ -12,11 +12,11 @@
     <link rel="icon" href="./img/favicon.png">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-    <link href="css/styles.production.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/bcd0cbd786.js" crossorigin="anonymous"></script>
+    <link href="css/styles.production.css" rel="stylesheet">
 
   </head>
   <body>
@@ -46,7 +46,7 @@
       <div class="row row-content">
         <h1>Location Information</h1>
         <div class="col col-lg-4 col-xl-3">
-          <img src="./img/seattle-vector.svg" alt="Vector image of Seattle WA." style="margin-left: -22px;" />
+          <img class="img-fluid" src="./img/seattle-vector.svg" alt="Vector image of Seattle WA." style="margin-left: -22px;" />
 
           <address id="contact-info">
             <i class="fa-solid fa-location-dot"></i> Redmond, WA USA<br>
@@ -57,7 +57,7 @@
           </address>
         </div>
 
-        <div class="col col-md">
+        <div class="col col-md col-sm">
           <h2>Let's Chat!</h2>
           <form id="contact-form">
             <div class="form-group">
@@ -101,7 +101,8 @@
 
   <!-- Scripts -->
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
   <script src="js/tota11y.min.js"></script>
   <script src="js/scripts.js"></script>
 </body>
