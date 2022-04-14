@@ -44,12 +44,11 @@
 
       <div class="row row-content">
         <h1>Location Information</h1>
-        <div class="col">
-          <img src="./img/seattle-vector.svg" alt="Vector image of Seattle WA." />
+        <div class="col col-md-4 col-sm-3">
+          <img src="./img/seattle-vector.svg" alt="Vector image of Seattle WA." style="margin-left: -22px;" />
         </div>
-        <div class="col-12 col-md">
+        <div class="col col-sm-3">
           <address id="contact-info">
-            <hr>
             <i class="fa-solid fa-location-dot"></i> Redmond, WA USA<br>
             <i class="fa-solid fa-phone"></i> <a href="tel:+14255551234">+1 425 555 1234</a><br>
             <i class="fa-brands fa-skype"></i> patti.short<br>
@@ -57,30 +56,29 @@
             <i class="fa-solid fa-envelope"></i> <a href="mailto:hi@patriciamcphee.com">hi@patriciamcphee.com</a>
           </address>
         </div>
-
-        <div class="row row-content">
-          <div class="col-12 col-md-9">
-            <h2>Let's Chat!</h2>
-            <form id="contact-form">
-              <div class="form-group">
-                <label class="input-field-icon icon-user" for="contact-name"></label>
-                <input type="text" class="form-control" value="" placeholder="Name" id="contact-name" />
-              </div>        
-              <div class="form-group">
-                <label class="input-field-icon icon-email" for="contact-email"></label>
-                <input type="email" required class="form-control" value="" placeholder="Email" id="contact-email" />
-              </div>        
-              <div class="form-group">
-                <label class="input-field-icon icon-phone" for="form-phone"></label>
-                <input id="form-phone"  type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" name="Phone" class="form-control" placeholder="Phone #">
-              </div>
-              <div class="form-group">
-                <label class="input-field-icon icon-message" for="contact-message"></label>
-                <textarea required  maxlength="240" class="form-control" placeholder="Message" id="contact-message" rows="1"></textarea>
-              </div>    
-              <button id="contact-send" class="btn btn-primary btn-lg btn-block">Send</button>
-            </form>
-          </div>
+      </div>
+      <div class="row row-content">
+        <div class="col col-sm-4 col-lg-7">
+          <h2>Let's Chat!</h2>
+          <form id="contact-form">
+            <div class="form-group">
+              <label class="input-field-icon icon-user" for="contact-name"></label>
+              <input type="text" class="form-control" value="" placeholder="Name" id="contact-name" />
+            </div>        
+            <div class="form-group">
+              <label class="input-field-icon icon-email" for="contact-email"></label>
+              <input type="email" required class="form-control" value="" placeholder="Email" id="contact-email" />
+            </div>        
+            <div class="form-group">
+              <label class="input-field-icon icon-phone" for="form-phone"></label>
+              <input id="form-phone"  type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" name="Phone" class="form-control" placeholder="Phone #">
+            </div>
+            <div class="form-group">
+              <label class="input-field-icon icon-message" for="contact-message"></label>
+              <textarea required  maxlength="240" class="form-control" placeholder="Message" id="contact-message" rows="1"></textarea>
+            </div>    
+            <button id="contact-send" class="btn btn-primary btn-lg btn-block">Send</button>
+          </form>
         </div>
       </div>
     </div>
