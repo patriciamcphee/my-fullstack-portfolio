@@ -32,6 +32,11 @@ Secondary Color (Gold): #e0b354;
           box-sizing: border-box;
 }
 
+.page-container {
+
+  
+}
+
 .grid {
   display: -ms-grid;
   display: grid;
@@ -97,44 +102,8 @@ Secondary Color (Gold): #e0b354;
 
 
 
-/* The navigation bar */
-nav {
-     background-color: var(--primary-color);
-     padding: 15px;
-     vertical-align: middle;
-}
-
-nav a:link, a:visited {
-  color: var(--secondary-color);
-  text-decoration: none;
-}
-
-nav a:hover, a:focus {
-  /* No underlining when hovering over a link */
-  text-decoration: none;
-  color: var(--secondary-color-lighter);
-}
-
-.navigation-list {
-  list-style-type: none;
-
-}
 
 
-.main-navigation {
-  text-align: right;
-}
-
-.navigation-list li {
-  display: inline-block;
-  margin-left: 15px;
-}
-
-.navigation-list li .navigation-list__item--active {
-  text-decoration: none;
-  color: var(--secondary-color-lighter);
-  font-weight: 900;
-}
 
 
 /* Profile */

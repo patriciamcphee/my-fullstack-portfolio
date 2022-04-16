@@ -1,128 +1,135 @@
-<!DOCTYPE html>
-
+<!doctype html>
 <html lang="en">
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-    <title>Patricia McPhee | About </title>
-    <meta name="description" content="Learn more about me and how I got started in web development.">
-    <meta name="keywords" content="HTML, CSS, JavaScript, web design services, Docusaurus web design services, web design for small business and individuals, web design for startups, web design for small businesses">
-    <meta name="author" content="Patricia McPhee">
-    <link rel="icon" href="./img/favicon.png">
 
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-    <link href="css/styles.production.css" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/bcd0cbd786.js" crossorigin="anonymous"></script>
-  </head>
-  <body>
-    <!-- Header including the logo and the main navigation -->
-    <header class="page-header">
-      <a href="./index.html"><img src="./img/patricia-mcphee-logo-white.png" alt="Patricia McPhee logo"></a>
-      <nav class="main-navigation page-header__item">
-        <ul role="menubar" class="navigation-list">
-           <li role="presentation">
-              <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
-           </li>
-           <li role="presentation">
-              <a href="about.html" role="menuitem" class="navigation-list__item navigation-list__item--active">About</a>
-           </li>
-           <li role="presentation">
-              <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
-           </li>
-           <li role="presentation">
-              <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
-           </li>
-        </ul>
-     </nav>
-    </header>
-  <section role="main">
-    <div class="container text-center">
-      <div class="row row-header">
-        <div class="col">
-          <h1>About</h1>
-          <p>This page is about me. This is what I enjoy doing:</p>
-          <p>Frontend development</p>
-          <p>Backend development</p>
-          <p>Content development</p>
-          <p>Creating and being innovative</p>
+    <!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+	 crossorigin="anonymous">
 
-            <div class="btn btn-lg" style="background-color: #e0b354;">
-              <a href="files/cv.pdf" target="_blank" style="color: white;">Download my CV</a>
-            </div>
+   <link href="css/w3.css" rel="stylesheet" type="text/css" />
+   <link href="css/w3pro.css" rel="stylesheet" type="text/css" />
+	<link href="css/styles.css" rel="stylesheet" type="text/css" />
+</head>
 
-            <hr>
-
-          <h2>How I became a web developer</h2>
-          <h3>How it started:</h3>
-          <p>I've been in IT in different capacities for the past 25 years, starting in support and moving to network system administration. However, for the past 20 years, I've been working as a <a href="https://patriciamcphee.github.io/portfolio/docs/resume#work-experience">Technical Writer</a>. I take the guesswork out of complex technical content for busy IT professionals.</p>
-
-          <h3>How I got here:</h3>
-          <p>About 12 years ago, I became disenchanted with my career choice. So I started to explore different careers like Medical Writer, Voiceover/Voice Actor or returning to my roots as a Graphic Designer. I even considered transitioning to UX/UI Designer, Instructional Designer, or Web Developer. However, after exploring these possibilities, I decided on Full Stack Web Developer.</p>
-
-          <p>During all of my exploring, I also discovered that I enjoy developing content management systems using static-site generators like <a href="https://docusaurus.io/docs">Docusaurus</a> and <a href="https://jekyllrb.com/">Jekyll</a>. In the past, I've built technical content management systems from scratch using MadCap Flare or Robohelp, but I fell in love with open-source platforms. Next, I want to try <a href="https://dotnet.github.io/docfx/tutorial/docfx_getting_started.html">Docfx</a>.
-          </p>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+        <a class="navbar-brand" href="index.html"><img src="./img/patricia-mcphee-logo-white.svg"></a>
+        <button class="navbar-toggler bg-secondary" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="work.html">Work</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
         </div>
-      </div>
-      <div class="row row-content">
-        <div class="col">
-          <h2 class="text-center">Skills</h2>
-          <table class="skills-table" id="skills" style="width: 400px;">
-            <thead>
-              <tr>
-                <th>Skill</th>
-                <th>Years</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Technical Writing</td>
-                <td>25</td>
-              </tr>
-              <tr>
-                <td>HTML/CSS</td>
-                <td>22</td>
-              </tr>
-              <tr>
-                <td>JavaScript</td>
-                <td>2</td>
-              </tr>
-              <tr>
-                <td>GitHub/Git/Git bash</td>
-                <td>8</td>
-              </tr>
-              <tr>
-                <td>JIRA or other sprint-based systems</td>
-                <td>7</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </div>
- 
-  </section>
-    <!-- Footer with links to social media profiles -->
-    <footer id="page-footer">
-      <div class="container">
-        <div class="row text-center">
+      </nav>
+      
+      <div class="container text-center">
+        <div class="row row-header">
           <div class="col">
-            <p>Find me on</p>
-            <div class="social-media">
-              <a href="https://github.com/patriciamcphee" target="_blank"><img src="img/github-logo.svg" alt="Github"></a>
-              <a href="https://patricia-mcphee.slack.com/team/U0317EJ3XG9" target="_blank"><img src="img/slack-icon.svg" alt="Slack"></a>
-              <a href="https://www.linkedin.com/in/patriciamcphee/" target="_blank"><img src="img/linkedin-icon.svg" alt="LinkedIn"></a>
-            </div>
+            <h1>About</h1>
+            <p>This page is about me. This is what I enjoy doing:</p>
+            <p>Frontend development</p>
+            <p>Backend development</p>
+            <p>Content development</p>
+            <p>Creating and being innovative</p>
+  
+              <div class="btn btn-lg" style="background-color: #e0b354;">
+                <a href="files/cv.pdf" target="_blank" style="color: white;">Download my CV</a>
+              </div>
+  
+              <hr>
+  
+            <h2>How I became a web developer</h2>
+            <h3>How it started:</h3>
+            <p>I've been in IT in different capacities for the past 25 years, starting in support and moving to network system administration. However, for the past 20 years, I've been working as a <a href="https://patriciamcphee.github.io/portfolio/docs/resume#work-experience">User Experience (UX) Technical Writer</a>taking the guesswork out of complex technical applications and corresponding content. </p>
+  
+            <p>I started my technical writing career on the Human Factors (Human-Centered Design & Engineering) team at a large telecommunications company. There, I learned how to conduct usability research and tests to uncover and solve user experience (UX) challenges early in my career. Over the last 12 years, I've helped organizations reduce, simplify, and restructure their content, ensuring quality and accuracy, and increasing customer satisfaction rates.</p>
+  
+            <h3>How I got here:</h3>
+            <p>About 12 years ago, I became disenchanted with my career choice. So I started to explore different careers like Medical Writer, Voiceover/Voice Actor or returning to my roots as a Graphic Designer. I even considered transitioning to UX/UI Designer, Instructional Designer, or Web Developer. However, after exploring these possibilities, I decided on Full Stack Web Developer.</p>
+  
+            <p>During all of my exploring, I also discovered that I enjoy developing content management systems using static-site generators like <a href="https://docusaurus.io/docs">Docusaurus</a> and <a href="https://jekyllrb.com/">Jekyll</a>. In the past, I've built technical content management systems from scratch using MadCap Flare or Robohelp, but I fell in love with open-source platforms. Next, I want to try <a href="https://dotnet.github.io/docfx/tutorial/docfx_getting_started.html">Docfx</a>.
+            </p>
+  
+          </div>
+        </div>
+        <div class="row row-content">
+          <div class="col">
+            <h2 class="text-center">Skills</h2>
+            <table class="table table-striped" id="skills" >
+              <thead>
+                <tr>
+                  <th scope="col">Skill</th>
+                  <th scope="col" width="20%">Years</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td scope="row">Technical Writing</td>
+                  <td>25</td>
+                </tr>
+                <tr>
+                  <td scope="row">HTML/CSS</td>
+                  <td>22</td>
+                </tr>
+                <tr>
+                  <td scope="row">JavaScript</td>
+                  <td>2</td>
+                </tr>
+                <tr>
+                  <td scope="row">GitHub/Git/Git bash</td>
+                  <td>8</td>
+                </tr>
+                <tr>
+                  <td scope="row">JIRA or other sprint-based systems</td>
+                  <td>7</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
       </div>
-    </footer>
-<!-- Scripts -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="js/tota11y.min.js"></script>
-<script src="js/scripts.js"></script>
-</body>
+
+
+
+
+
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row text-center">             
+        <div class="col">
+          <p>Find me on</p>
+          <div class="social-media">
+            <a href="https://github.com/patriciamcphee" target="_blank"><img src="img/github-logo.svg" alt="Github"></a>
+            <a href="https://patricia-mcphee.slack.com/team/U0317EJ3XG9" target="_blank"><img src="img/slack-icon.svg" alt="Slack"></a>
+            <a href="https://www.linkedin.com/in/patriciamcphee/" target="_blank"><img src="img/linkedin-icon.svg" alt="LinkedIn"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+   <!-- Scripts -->
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+   <script src="script.js"></script>
+  </body>
 </html>
