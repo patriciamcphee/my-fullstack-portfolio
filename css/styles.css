@@ -277,8 +277,17 @@ a {
 	box-shadow: none;
 }
 
-.progress-bar {
-	background-color: #49e2d6;
+ul.progress-list > li {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px 0px;
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
 }
 
 /* media */
