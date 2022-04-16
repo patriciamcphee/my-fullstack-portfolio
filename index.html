@@ -1,83 +1,185 @@
 <!DOCTYPE html>
+<html>
 
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-    <title>Patricia McPhee | Web Developer Portfolio </title>
-    <meta name="description" content="A simple portfolio showing my web development capabilities.">
-    <meta name="keywords" content="HTML, CSS, JavaScript, web design services, Docusaurus web design services, web design for small business and individuals, web design for startups, web design for small businesses">
-    <meta name="author" content="Patricia McPhee">
-    <link rel="icon" href="./img/favicon.png">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+	 crossorigin="anonymous">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-    <link href="css/styles.production.css" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/bcd0cbd786.js" crossorigin="anonymous"></script>
-  </head>
+   <link href="css/w3.css" rel="stylesheet" type="text/css" />
+   <link href="css/w3pro.css" rel="stylesheet" type="text/css" />
+	<link href="css/styles.css" rel="stylesheet" type="text/css" />
+</head>
 
-  <body>
-    <!-- Header including the logo and the main navigation -->
-    <header class="page-header">
-      <a href="./index.html"><img src="./img/patricia-mcphee-logo-white.png" alt="Patricia McPhee logo"></a>
-      <nav class="main-navigation page-header__item">
-        <ul role="menubar" class="navigation-list">
-           <li role="presentation">
-              <a href="index.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Home</a>
-           </li>
-           <li role="presentation">
-              <a href="about.html" role="menuitem" class="navigation-list__item">About</a>
-           </li>
-           <li role="presentation">
-              <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
-           </li>
-           <li role="presentation">
-              <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
-           </li>
-        </ul>
-     </nav>
-    </header>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+    <a class="navbar-brand" href="index.html"><img src="./img/patricia-mcphee-logo-white.svg"></a>
+        <button class="navbar-toggler bg-secondary" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#aboutMe">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="work.html">Work</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+        </div>
+      </nav>
 
-    <section id="home">
-      <div class="container container-fluid profile">
-          <div class="row row-content align-items-center">
-              <div class="col-sm-5">
-                  <img class="profile__portrait" src="img/portfolio-landing-page.svg" alt="Image for web developer portfolio landing page.">
+
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <div class="row row-header">
+
+        <div class="col-sm-5">
+          <img class="profile__portrait" src="img/portfolio-landing-page.svg" alt="Image for web developer portfolio landing page.">
+        </div>
+        <div class="col-auto profile__text">
+          <h1 class="display-1">Hello!</h1>
+          <h2>My name is Patricia McPhee.</h2>
+          <p class="lead"><i>Web Developer / Docusaurus & Gatsby Expert</i> </p>          <!-- -->
+
+          
+        <div>
+          <a class="btn btn-lg" href="./work.html" style="background-color: #e0b354;color: black;" role="button">My Projects</a>
+        </div>
+
+                  
+
+        </div>        
+      </div>
+      </div>
+      </div>
+
+      <section id="aboutMe">
+        <div class="container">
+          <h1 class="display-4">About</h1>
+          <p>I'm a Seattle-based <span style="background-color: black; color: #cf9b1f; font-family: 'Courier New', Courier, monospace;"> &#060;web/&#062;</span> developer who specializes in developing Docs-as-Code content management systems, and occasionally designing digit experiences. </p>
+          <div class="alert alert-warning" width="100px" role="alert">I'm not your average web developer.</div>
+
+          <h3>How it started</h3>
+          <p>I've been in IT in different capacities for the past 25 years, starting in support and moving to network system administration. However, for the past 20 years, I've been working as a <a href="https://patriciamcphee.github.io/portfolio/docs/resume#work-experience">User Experience (UX) Technical Writer</a>taking the guesswork out of complex technical applications and corresponding content. </p>
+
+          <p>I started my technical writing career on the Human Factors (Human-Centered Design & Engineering) team at a large telecommunications company. There, I learned how to conduct usability research and tests to uncover and solve user experience (UX) challenges early in my career. Over the last 12 years, I've helped organizations reduce, simplify, and restructure their content, ensuring quality and accuracy, and increasing customer satisfaction rates.</p>
+
+          <h3>How I got here</h3>
+          <p>About 12 years ago, I became disenchanted with my career choice. So I started to explore different careers like Medical Writer, Voiceover/Voice Actor or returning to my roots as a Graphic Designer. I even considered transitioning to UX/UI Designer, Instructional Designer, or Web Developer. However, after exploring these possibilities, I decided on Full Stack Web Developer.</p>
+
+          <p>During my exploring, I discovered that I enjoy developing content management systems using static-site generators like <a href="https://docusaurus.io/docs">Docusaurus</a>, Gatsby, and <a href="https://jekyllrb.com/">Jekyll</a>. In the past, I've built technical content management systems from scratch using MadCap Flare or Robohelp, but I fell in love with open-source platforms. Next, I want to try <a href="https://dotnet.github.io/docfx/tutorial/docfx_getting_started.html">Docfx</a>.
+          </p>
+
+          <a class="btn btn-lg" href="files/cv.pdf" target="_blank" style="background-color: #e0b354;color: black;" role="button">Download my CV</a>
+          
+        </div>
+
+      </section>
+
+      <section id="skillset">
+        <div class="container container-fluid">
+            <h1 class="display-4">Skill set</h1>
+          <div class="row row-cols-1 row-cols-md-3">
+            <div class="col mb-4">
+              <div class="card h-100">
+                <svg class="skillset-svg" width="100px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M128 96h384v256h64V80C576 53.63 554.4 32 528 32h-416C85.63 32 64 53.63 64 80V352h64V96zM624 384h-608C7.25 384 0 391.3 0 400V416c0 35.25 28.75 64 64 64h512c35.25 0 64-28.75 64-64v-16C640 391.3 632.8 384 624 384zM365.9 286.2C369.8 290.1 374.9 292 380 292s10.23-1.938 14.14-5.844l48-48c7.812-7.813 7.812-20.5 0-28.31l-48-48c-7.812-7.813-20.47-7.813-28.28 0c-7.812 7.813-7.812 20.5 0 28.31l33.86 33.84l-33.86 33.84C358 265.7 358 278.4 365.9 286.2zM274.1 161.9c-7.812-7.813-20.47-7.813-28.28 0l-48 48c-7.812 7.813-7.812 20.5 0 28.31l48 48C249.8 290.1 254.9 292 260 292s10.23-1.938 14.14-5.844c7.812-7.813 7.812-20.5 0-28.31L240.3 224l33.86-33.84C281.1 182.4 281.1 169.7 274.1 161.9z"/></svg>
+                <div class="card-body">
+                  <h5 class="card-title">Web Developer</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Cras justo odio</li>
+                  <li class="list-group-item">Dapibus ac facilisis in</li>
+                  <li class="list-group-item progress-title">Adobe InDesign
+                    <div class="w3-light-grey w3-round-xlarge w3-smallv">
+                        <div class="w3-container w3-round-xlarge w3-teal" style="width:90%">
+                            <div class="value">90%</div>
+                        </div>
+                    </div></li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link">Card link</a>
+                  <a href="#" class="card-link">Another link</a>
+                </div>
               </div>
-              <div class="col profile__text">
-                  <h1>Hello!</h1>
-                  <h2>My name is Patricia McPhee.</h2>
-                  <h3>I'm a <span style="background-color: black; color: #cf9b1f; font-family: 'Courier New', Courier, monospace;"> &#060;web/&#062;</span> developer from Redmond, WA USA.</h3>
-                  <p>
-                    Check out some of <a href="./work.html">my code</a>.
+            </div>
+            <div class="col mb-4">
+              <div class="card h-100">
+                <svg class="skillset-svg" width="100px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M368.4 18.34C390.3-3.526 425.7-3.526 447.6 18.34L493.7 64.4C515.5 86.27 515.5 121.7 493.7 143.6L437.9 199.3L312.7 74.06L368.4 18.34zM417.4 224L371.4 377.3C365.4 397.2 350.2 413 330.5 419.6L66.17 508.2C54.83 512 42.32 509.2 33.74 500.9L187.3 347.3C193.6 350.3 200.6 352 207.1 352C234.5 352 255.1 330.5 255.1 304C255.1 277.5 234.5 256 207.1 256C181.5 256 159.1 277.5 159.1 304C159.1 311.4 161.7 318.4 164.7 324.7L11.11 478.3C2.809 469.7-.04 457.2 3.765 445.8L92.39 181.5C98.1 161.8 114.8 146.6 134.7 140.6L287.1 94.6L417.4 224z"/></svg>
+                <div class="card-body">
+                  <h5 class="card-title">UX Writing</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Cras justo odio</li>
+                  <li class="list-group-item">Dapibus ac facilisis in</li>
+                  <li class="list-group-item">Vestibulum at eros</li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link">Card link</a>
+                  <a href="#" class="card-link">Another link</a>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card h-100">
+                <svg class="skillset-svg" width="100px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M128 160C128 142.3 142.3 128 160 128H288C305.7 128 320 142.3 320 160V256C320 273.7 305.7 288 288 288H160C142.3 288 128 273.7 128 256V160zM288 320C323.3 320 352 291.3 352 256V224H416C433.7 224 448 238.3 448 256V352C448 369.7 433.7 384 416 384H288C270.3 384 256 369.7 256 352V320H288zM48 115.8C38.18 106.1 32 94.22 32 80C32 53.49 53.49 32 80 32C94.22 32 106.1 38.18 115.8 48H460.2C469 38.18 481.8 32 496 32C522.5 32 544 53.49 544 80C544 94.22 537.8 106.1 528 115.8V396.2C537.8 405 544 417.8 544 432C544 458.5 522.5 480 496 480C481.8 480 469 473.8 460.2 464H115.8C106.1 473.8 94.22 480 80 480C53.49 480 32 458.5 32 432C32 417.8 38.18 405 48 396.2V115.8zM96 125.3V386.7C109.6 391.6 120.4 402.4 125.3 416H450.7C455.6 402.4 466.4 391.6 480 386.7V125.3C466.4 120.4 455.6 109.6 450.7 96H125.3C120.4 109.6 109.6 120.4 96 125.3z"/></svg>
+                <div class="card-body">
+                  <h5 class="card-title">Visual Design</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text progress-title">
+                    <div class="w3-light-grey w3-round-xlarge w3-smallv">
+                        <div class="w3-container w3-round-xlarge w3-teal" style="width:90%">
+                            <div class="value">Adobe InDesign - 90%</div>
+                        </div>
+                    </div>
                   </p>
+                  <p class="card-text progress-title">
+                    <div class="w3-light-grey w3-round-xlarge w3-smallv">
+                        <div class="w3-container w3-round-xlarge w3-teal" style="width:70%">
+                            <div class="value">Adobe Illustrator - 70%</div>
+                        </div>
+                    </div>
+                  </p>
+                </div>
               </div>
+            </div>
+            
           </div>
         </div>
-    </section>
+      </section>
 
-<footer id="page-footer">
-  <div class="container">
-    <div class="row text-center">
-      <div class="col">
-        <p>Find me on</p>
-        <div class="social-media">
-          <a href="https://github.com/patriciamcphee" target="_blank"><img src="img/github-logo.svg" alt="Github"></a>
-          <a href="https://patricia-mcphee.slack.com/team/U0317EJ3XG9" target="_blank"><img src="img/slack-icon.svg" alt="Slack"></a>
-          <a href="https://www.linkedin.com/in/patriciamcphee/" target="_blank"><img src="img/linkedin-icon.svg" alt="LinkedIn"></a>
+     
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row text-center">             
+        <div class="col">
+          <p>Find me on</p>
+          <div class="social-media">
+            <a href="https://github.com/patriciamcphee" target="_blank"><img src="img/github-logo.svg" alt="Github"></a>
+            <a href="https://patricia-mcphee.slack.com/team/U0317EJ3XG9" target="_blank"><img src="img/slack-icon.svg" alt="Slack"></a>
+            <a href="https://www.linkedin.com/in/patriciamcphee/" target="_blank"><img src="img/linkedin-icon.svg" alt="LinkedIn"></a>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</footer>
-
-<!-- Scripts -->
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="js/tota11y.min.js"></script>
-<script src="js/scripts.js"></script>
-</body>
+  </footer>
+   <!-- Scripts -->
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+   <script src="script.js"></script>
+  </body>
 </html>

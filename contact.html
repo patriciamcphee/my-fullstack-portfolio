@@ -1,110 +1,104 @@
-<!DOCTYPE html>
-
+<!doctype html>
 <html lang="en">
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-    <title>Patricia McPhee | Contact </title>
-    <meta name="description" content="Contact me to find out what I can do for you.">
-    <meta name="keywords" content="HTML, CSS, JavaScript, web design services, Docusaurus web design services, web design for small business and individuals, web design for startups, web design for small businesses">
-    <meta name="author" content="Patricia McPhee">
-    <link rel="icon" href="./img/favicon.png">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+    crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-    <script src="https://kit.fontawesome.com/bcd0cbd786.js" crossorigin="anonymous"></script>
-    <link href="css/styles.production.css" rel="stylesheet">
+    <link href="css/w3.css" rel="stylesheet" type="text/css" />
+    <link href="css/w3pro.css" rel="stylesheet" type="text/css" />
+     <link href="css/styles.css" rel="stylesheet" type="text/css" />
+</head>
 
-  </head>
-  <body>
-    <!-- Header including the logo and the main navigation -->
-    <header class="page-header">
-      <a href="./index.html"><img src="./img/patricia-mcphee-logo-white.png" alt="Patricia McPhee logo"></a>
-      <nav class="main-navigation page-header__item">
-        <ul role="menubar" class="navigation-list">
-           <li role="presentation">
-              <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
-           </li>
-           <li role="presentation">
-              <a href="about.html" role="menuitem" class="navigation-list__item">About</a>
-           </li>
-           <li role="presentation">
-              <a href="work.html" role="menuitem" class="navigation-list__item navigation-list__item">Work</a>
-           </li>
-           <li role="presentation">
-              <a href="contact.html" role="menuitem" class="navigation-list__item--active">Contact</a>
-           </li>
-        </ul>
-     </nav>
-    </header>
-  <main>
-    <div class="container">
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+        <a class="navbar-brand" href="index.html"><img src="./img/patricia-mcphee-logo-white.svg"></a>
+        <button class="navbar-toggler bg-secondary" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="work.html">Work</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+        </div>
+      </nav>
+      
 
-      <div class="row row-content">
+      <div class="container container-fluid">
         <h1>Location Information</h1>
-        <div class="col col-lg-4 col-xl-3">
-          <img class="img-fluid" src="./img/seattle-vector.svg" alt="Vector image of Seattle WA." style="margin-left: -22px;" />
+        <div class="row row-content">
 
-          <address id="contact-info">
-            <i class="fa-solid fa-location-dot"></i> Redmond, WA USA<br>
-            <i class="fa-solid fa-phone"></i> <a href="tel:+14255551234">+1 425 555 1234</a><br>
-            <i class="fa-brands fa-skype"></i> patti.short<br>
-            <i class="fa-brands fa-slack"></i> <a href="https://patricia-mcphee.slack.com/team/U0317EJ3XG9" target="_blank">patricia-mcphee</a><br>
-            <i class="fa-solid fa-envelope"></i> <a href="mailto:hi@patriciamcphee.com">hi@patriciamcphee.com</a>
-          </address>
-        </div>
-
-        <div class="col col-md col-sm">
-          <h2>Let's Chat!</h2>
-          <form id="contact-form">
-            <div class="form-group">
-              <label class="input-field-icon icon-user" for="contact-name"></label>
-              <input type="text" class="form-control" value="" placeholder="Name" id="contact-name" />
-            </div>        
-            <div class="form-group">
-              <label class="input-field-icon icon-email" for="contact-email"></label>
-              <input type="email" required class="form-control" value="" placeholder="Email" id="contact-email" />
-            </div>        
-            <div class="form-group">
-              <label class="input-field-icon icon-phone" for="form-phone"></label>
-              <input id="form-phone"  type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" name="Phone" class="form-control" placeholder="Phone #">
-            </div>
-            <div class="form-group">
-              <label class="input-field-icon icon-message" for="contact-message"></label>
-              <textarea required  maxlength="240" class="form-control" placeholder="Message" id="contact-message" rows="1"></textarea>
-            </div>    
-            <button id="contact-send" class="btn btn-primary btn-lg btn-block">Send</button>
-          </form>
-        </div>
-      </div>
-    </div>
-  </main>
-
-    <!-- Footer with links to social media profiles -->
-    <footer id="page-footer">
-      <div class="container">
-        <div class="row text-center">
-          <div class="col">
-            <p>Find me on</p>
-            <div class="social-media">
-              <a href="https://github.com/patriciamcphee" target="_blank"><img src="img/github-logo.svg" alt="Github"></a>
-              <a href="https://patricia-mcphee.slack.com/team/U0317EJ3XG9" target="_blank"><img src="img/slack-icon.svg" alt="Slack"></a>
-              <a href="https://www.linkedin.com/in/patriciamcphee/" target="_blank"><img src="img/linkedin-icon.svg" alt="LinkedIn"></a>
-            </div>
+          <div class="col col-sm">
+            <img src="./img/seattle-vector.svg" alt="Vector image of Seattle WA." style="margin-left: -22px;" />
+  
+            <address id="contact-info">
+              <i class="fa-solid fa-location-dot"></i> Redmond, WA USA<br>
+              <i class="fa-solid fa-phone"></i> <a href="tel:+14255551234">+1 425 555 1234</a><br>
+              <i class="fa-brands fa-skype"></i> patti.short<br>
+              <i class="fa-brands fa-slack"></i> <a href="https://patricia-mcphee.slack.com/team/U0317EJ3XG9" target="_blank">patricia-mcphee</a><br>
+              <i class="fa-solid fa-envelope"></i> <a href="mailto:hi@patriciamcphee.com">hi@patriciamcphee.com</a>
+            </address>
+          </div>
+  
+          <div class="col-md-8 col-sm-12">
+            <h2>Let's Chat!</h2>
+            <form id="contact-form">
+              <div class="form-group">
+                <label class="input-field-icon icon-user" for="contact-name"></label>
+                <input type="text" class="form-control" value="" placeholder="Name" id="contact-name" />
+              </div>        
+              <div class="form-group">
+                <label class="input-field-icon icon-email" for="contact-email"></label>
+                <input type="email" required class="form-control" value="" placeholder="Email" id="contact-email" />
+              </div>        
+              <div class="form-group">
+                <label class="input-field-icon icon-phone" for="form-phone"></label>
+                <input id="form-phone"  type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" name="Phone" class="form-control" placeholder="Phone #">
+              </div>
+              <div class="form-group">
+                <label class="input-field-icon icon-message" for="contact-message"></label>
+                <textarea required  maxlength="240" class="form-control" placeholder="Message" id="contact-message" rows="1"></textarea>
+              </div>    
+              <button id="contact-send" class="btn btn-primary btn-lg btn-block">Send</button>
+            </form>
           </div>
         </div>
       </div>
-    </footer>
 
-  <!-- Scripts -->
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-  <script src="js/tota11y.min.js"></script>
-  <script src="js/scripts.js"></script>
-</body>
+  <!-- Footer -->
+  <footer class="footer sticky-bottom">
+    <div class="container">
+      <div class="row text-center">             
+        <div class="col">
+          <p>Find me on</p>
+          <div class="social-media">
+            <a href="https://github.com/patriciamcphee" target="_blank"><img src="img/github-logo.svg" alt="Github"></a>
+            <a href="https://patricia-mcphee.slack.com/team/U0317EJ3XG9" target="_blank"><img src="img/slack-icon.svg" alt="Slack"></a>
+            <a href="https://www.linkedin.com/in/patriciamcphee/" target="_blank"><img src="img/linkedin-icon.svg" alt="LinkedIn"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+   <!-- Scripts -->
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+   <script src="script.js"></script>
+  </body>
 </html>
-
