@@ -316,6 +316,7 @@ ul.progress-list > li {
     -ms-grid-columns: 1fr 20px 1fr;
     grid-template-columns: 1fr 1fr;
   }
+
 }
 @media all and (max-width: 750px) {
   .grid {
