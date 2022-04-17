@@ -283,6 +283,11 @@ ul.progress-list > li {
   padding: 5px 0px;
 }
 
+div.progress-bar.bg-info {
+  background-color: var(--primary-color)!important;
+  opacity: 85%;
+}
+
 #myBtn {
   display: none;
   position: fixed;
